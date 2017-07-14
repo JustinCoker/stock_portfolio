@@ -110,7 +110,7 @@ def CashDiv(ticker, amount):
     portfolio.loc[index, 'CashDividend']= current_val+amount
 
 
-    
+#This is a simple test case to initialize purchase of 2 stocks quickly.  
 def test():
     cash(1000)
     buy('CSCO',10,50)
